@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify to view</title>
+    <link rel="stylesheet" href="pagestyle.css">
+    <meta name="author" content="lychay">
+    <meta name="description" content="Verify to get link">
+    <link rel="icon" type="img/png" href="htmlverifylogo128.png">
+</head>
+<body>
+    <div class="container">
+        <h1 lang="km">Please Enter Code</h1>
+        <form id="codeForm" action="/submit-code" method="POST">
+            <div class="form-group">
+                <label for="code">បញ្ចូលកូដ:</label>
+                <input type="text" id="code" name="userCode" required placeholder="បញ្ចូលកូដដែលមាននៅក្នុងប័ណ្ណសរសើរ">
+            </div>
+            <button type="submit">Verify</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="secretfile.js" ></script>
+</body>
+</html>

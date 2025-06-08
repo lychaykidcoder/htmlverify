@@ -1,0 +1,76 @@
+body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            background:url("sunshine-2250_256.gif");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .container {
+            background-color: rgb(232, 253, 240);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border: 2px solid rgb(74, 206, 74);
+        }
+        .container:hover{
+            background-color: #d8ffdc;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #3fcc32;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 10px;
+            font-family: monospace;
+        }
+        button:hover {
+            background-color: #08b327;
+        }
+        #message {
+            margin-top: 20px;
+            color: red; 
+            font-weight: bold;
+        }
+        .adone{
+            text-decoration: none;
+            color: #08b327;
+            font-family: monospace;
+        }
+        .adone:hover{
+            color: #32bacc;
+        }
+        .true{
+            display: inline;
+            max-width: 6%;
+            height: auto;
+        }
